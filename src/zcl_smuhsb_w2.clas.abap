@@ -17,7 +17,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_smuhsb_w2 IMPLEMENTATION.
+CLASS ZCL_SMUHSB_W2 IMPLEMENTATION.
+
 
   METHOD z2ui5_if_app~main.
 
@@ -60,5 +61,4 @@ CLASS zcl_smuhsb_w2 IMPLEMENTATION.
          )->get_root( )->xml_get( ) ) ).
 
   ENDMETHOD.
-
 ENDCLASS.
